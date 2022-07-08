@@ -4,6 +4,6 @@ public class Main {
         double weight = 77.3; //введите вес в киллограммах
         double height = 1.77; //введите рост в метрах
         double bmi = service.calculate(weight, height);
-        System.out.println(bmi);
+        System.out.printf("Ваш ИМТ: %.2f", (double) bmi);
     }
 }
